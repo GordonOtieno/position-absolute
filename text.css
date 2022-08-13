@@ -1,0 +1,43 @@
+/* body {
+    padding: 0;
+    height: 3000px;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+.main {
+    background-color: orange;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+.main .div1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    z-index: 100;
+}
+.social {
+    position:absolute;
+    bottom: 20px;
+    display: flex;
+    list-style: none;
+}
+.div3 {
+    position: relative;
+}
